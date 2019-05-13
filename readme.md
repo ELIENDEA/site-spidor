@@ -1,3 +1,5 @@
 # READ ME
 ## site SPIDOR
-* fichier
+* index.html
+* style css
+* images
