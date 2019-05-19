@@ -3,11 +3,62 @@
   src: url(../fonts/PlayfairDisplay-Regular.ttf) format("opentype");
   font-weight: lighter;
 }
+.cheese:hover{
+  transform: scale(1.05);
+}
+.dany:hover{
+  transform: scale(1.05);
+
+}
+.perfecto:hover{
+  transform: scale(1.05);
+
+}
+.ringolis:hover{
+  transform: scale(1.05);
+
+}
+.yummy:hover{
+  transform: scale(1.05);
 
 
+}
+.image-logo{
+  display: inline-block;
+
+}
+.image-logo:hover{
+  transform: scale(1.2);
+}
+.nav-produit{
+  display: inline-block;
+}
+.nav-produit:hover{
+  transform: scale(1.2);
+}
 .obligatoire {
     color: grey;
 }
+.nav-propos{
+  display: inline-block;
+
+}
+.nav-propos:hover{
+  transform: scale(1.2);
+}
+.nav-contact{
+  display: inline-block;
+}
+.nav-contact:hover{
+  transform: scale(1.2);
+}
+.nav-candidature{
+  display: inline-block;
+}
+.nav-candidature:hover{
+  transform: scale(1.2);
+}
+
 
 body{
   background-color: #FAFAD2;
