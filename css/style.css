@@ -385,9 +385,7 @@ header h2{
  display: inline-block;
   margin-left: 117px;
   text-align: justify;
-
-
-
+  transition: 0.5s;
 }
 .yummy h3{
     font-family: 'MarkOT', sans-serif;
@@ -421,7 +419,8 @@ header h2{
 
 }
 .dany{
-
+  transition: .5s;
+      
       background: #00BFFF;
       display: inline-block;
       margin: 0;
