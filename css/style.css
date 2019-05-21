@@ -81,8 +81,8 @@ body h2{
 section a {
   color: black;
   margin: 55px;
-  font-family: 'MarkOT', sans-serif;
-  font-size: 22px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 28px;
   font-weight: bold;
 }
 .footer a{
@@ -125,27 +125,30 @@ a:hover{
 
 }
 .main{
-  background-color: #DC143C;
-  margin-bottom: 10px;
+
+  margin-bottom: 50px;
   margin-right: 70px;
   margin-left: 70px;
   margin-top: 10px;
   padding: 0px 0px;
-  background-image: url(../img/essai.jpg);
+  background-color:  #FAEBD7;
+
 }
 
 
 .main h2{
-  color: #8B0000;
-  font-family: 'MarkOT', sans-serif;
-    font-size: 70px;
-  font-weight: lighter;
-  margin: 0px;
+  color: black;
+  font-family: 'Didact Gothic', sans-serif;
+    font-size: 60px;
+  font-weight: medium;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 
 }
 .main h1{
   color: #8B0000;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 70px;
   font-weight: lighter;
   margin: 10px;
@@ -212,7 +215,7 @@ a:hover{
 
   margin: 10px;
   color: #black;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 60px;
   font-weight: normal;
 
@@ -239,7 +242,7 @@ a:hover{
 
 .about h1{
   color: #FF8C00;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 60px;
   font-weight: lighter;
   margin-bottom: 0;
@@ -274,7 +277,7 @@ a:hover{
 header h2{
   color: #E08119;
   font-size: 70px;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .find{
@@ -289,7 +292,7 @@ header h2{
 .find h2{
 
   color: #FFE4C4;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 55px;
   font-weight: lighter;
   margin: 20px
@@ -300,7 +303,7 @@ header h2{
   margin-left: 210px;
 }
 .footer-liens a{
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 20px;
   color: black;
   font-weight: lighter;
@@ -345,18 +348,18 @@ header h2{
 }
 
 .contact legend{
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 28px;
 }
 .contact label{
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 28px;
 
 }
 
 .contact h1{
   color: #FFD662;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 60px;
   font-weight: lighter;
   margin-left: 500px;
@@ -374,14 +377,14 @@ header h2{
 
 .recrutement h1{
   color: #FFD662;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 60px;
   font-weight: lighter;
 
 }
 
 .yummy{
- background: #FAFAD2;
+background-color:  	#FFE4C4;
  display: inline-block;
   margin-left: 117px;
   text-align: justify;
@@ -390,9 +393,9 @@ header h2{
 .yummy h3{
     font-family: 'MarkOT', sans-serif;
     font-size: 30px;
-    color: #F4A460;
     text-align: justify;
-    font-weight: lighter;
+    font-weight: medium;
+    margin-left: 140px;
 
 
 
@@ -400,7 +403,7 @@ header h2{
 
 .perfecto{
 
-      background: #83d8ee;
+      background:  	#B0E0E6;
       display: inline-block;
       margin: 0;
       padding: 0;
@@ -409,19 +412,22 @@ header h2{
   font-family: 'MarkOT', sans-serif;
   font-size: 30px;
   text-align: justify;
+  margin-left: 120px;
 
 }
 .dany h3{
   font-family: 'MarkOT', sans-serif;
   font-size: 30px;
   text-align: justify;
+  margin-left: 100px
 
 
 }
 .dany{
   transition: .5s;
 
-      background: #00BFFF;
+
+      background: #87CEFA;
       display: inline-block;
       margin: 0;
       padding: 0;
@@ -430,6 +436,7 @@ header h2{
   font-family: 'MarkOT', sans-serif;
   font-size: 30px;
   text-align: justify;
+  margin-left: 120px;
 
 }
 .ringolis{
@@ -440,8 +447,8 @@ header h2{
 }
 
 .contact label{
-  font-family: 'MarkOT', sans-serif;
-  font-size: 20px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 26px;
   line-height: 1.8;
   text-align: justify;
   margin: 20px 10px;
@@ -476,7 +483,7 @@ margin-top: 10px;
 margin-left: 230px;
 margin-top: 20px;
 font-size: 30px;
-font-family: sans-serif;
+font-family: 'Didact Gothic';
 font-weight: lighter;
 }
 
@@ -498,7 +505,7 @@ font-weight: lighter;
 .contact p{
   font-size: 28px;
   margin-left: 80px;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 
@@ -562,8 +569,8 @@ font-weight: lighter;
   grid-auto-flow: column;
 }
 .dropdown span{
-  font-family: 'MarkOT', sans-serif;
-  font-size: 22px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 28px;
   font-weight: bold;
   color: black;
 }
