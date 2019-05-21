@@ -3,6 +3,7 @@
   src: url(../fonts/PlayfairDisplay-Regular.ttf) format("opentype");
   font-weight: lighter;
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
 .cheese:hover{
   transform: scale(1.05);
 }
@@ -197,22 +198,23 @@ a:hover{
 }
 
 .social{
-  background-color: #83d8eeaa;
+  background-color:  #FFE4E1;
   margin-bottom: 10px;
   margin-top: 30px;
   margin-right: 70px;
   margin-left: 70px;
   padding: 10px 0 0;
-  height: 180px;
+  height: 400px;
 
 
 }
 .social h2{
+
   margin: 10px;
-  color: #00008Baa;
+  color: #black;
   font-family: 'MarkOT', sans-serif;
   font-size: 60px;
-  font-weight: lighter;
+  font-weight: normal;
 
 }
 
@@ -621,6 +623,131 @@ font-weight: lighter;
 }
 .dropbtn:hover span{
   color: yellow;
+}
+
+
+.re {
+   font-family: 'Roboto Condensed', sans-serif;
+  position:relative;
+  top:30%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  display:flex;
+  margin:0;
+  padding:0;
+  margin-left: 120px;
+}
+
+.re li {
+  list-style:none;
+  margin:0 5px;
+}
+
+.re li a .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height:80px;
+  transition: .5s;
+  padding-right: 14px;
+}
+
+.re li a span {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: .5s;
+}
+
+.re li a {
+  text-decoration: none;
+  display:absolute;
+  display:block;
+  width:210px;
+  height:80px;
+  background: #fff;
+  text-align:left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg) translate(0,0);
+  transition:.5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+.re li a:before {
+  content: '';
+  position: absolute;
+  top:10px;
+  left:-20px;
+  height:100%;
+  width:20px;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+.re li a:after {
+  content: '';
+  position: absolute;
+  bottom:-20px;
+  left:-10px;
+  height:20px;
+  width:100%;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.re li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+
+.re li:hover .fa {
+  color:#fff;
+}
+
+.re li:hover span {
+  color:#fff;
+}
+
+.re li:hover:nth-child(1) a{
+  background: #3b5998;
+}
+.re li:hover:nth-child(1) a:before{
+  background: #365492;
+}
+.re li:hover:nth-child(1) a:after{
+  background: #4a69ad;
+}
+
+.re li:hover:nth-child(2) a{
+  background: #00aced;
+}
+.re li:hover:nth-child(2) a:before{
+  background: #097aa5;
+}
+.re li:hover:nth-child(2) a:after{
+  background: #53b9e0;
+}
+
+.re li:hover:nth-child(3) a{
+  background: #720E9E;
+}
+.re li:hover:nth-child(3) a:before{
+  background: #720E9E;
+}
+.re li:hover:nth-child(3) a:after{
+  background: #720E9E;
+}
+
+ul li:hover:nth-child(4) a{
+  background: #e4405f;
+}
+ul li:hover:nth-child(4) a:before{
+  background: #d81c3f;
+}
+ul li:hover:nth-child(4) a:after{
+  background: #e46880;
 }
 
 @-webkit-keyframes fade {
