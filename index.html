@@ -7,7 +7,6 @@
   <meta name="keywords" content="Chips, Algérie, industrie, Bordj-Bou-Arreridj, Snacks, fabrication">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/logo.png" type="image/x-icon"/>
-   <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 
 </head>
 
@@ -15,20 +14,30 @@
 <body>
 
   <section class="navigation-bar">
-        <nav>
-        <div>
-          <div class="image-logo">   <a href="/" target="_blank"><img src="img/logo.png" width="110" height="70" alt="spidor"></a></div>
-          <a href="Acceuil" title="Acceuil" target="_blank"></a>
-          <div class="nav-produit"><a href="produits.html" title="produits" target="_blank" ><span> Produits</span></a></div>
-      <div class="nav-propos">
-        <a href="propos.html" title="propos" target="_blank">
-          <span> A propos</span></a>
+    <nav>
+      <div>
+        <div class="image-logo">   <a href="/" target="_blank"><img src="img/logo.png" width="110" height="70" alt="spidor"></a></div>
+        <a href="Acceuil" title="Acceuil" target="_blank"></a>
+        <div class="nav-produit">
+          <div class="dropdown">
+          <button class="dropbtn"><span>Produits</span></button>
+          <div class="dropdown-content">
+            <span><a href="produits.html">CHIPS</a></span>
+            <span><a href="produits.html">MAIS</a></span>
+            <span><a href="produits.html">TOUS</a></span>
+          </div>
+          </div>
       </div>
-        <div class="nav-contact"> <a href="Contact.html" target="_blank" title="contact"><span> Contacts</span></a>
-        </div>
-        <div class="nav-candidature">
-          <a href="recrutement.html" target="_blank" title="recrutement"><span> Candidature</span></a>
-        </div>
+
+        <div class="nav-propos">
+          <a href="propos.html" title="propos" target="_blank">
+            <span> A propos</span></a>
+          </div>
+          <div class="nav-contact"> <a href="Contact.html" target="_blank" title="contact"><span> Contacts</span></a>
+          </div>
+          <div class="nav-candidature">
+            <a href="recrutement.html" target="_blank" title="recrutement"><span> Candidature</span></a>
+          </div>
         </nav>
       </div>
 
@@ -36,65 +45,98 @@
     </section>
     <div class="pos-image">
 
-      <img src="img/fond.png" alt="">
+
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+
+          <img src="img/fond.png">
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="img/chips-naturels.jpg">
+
+        </div>
+
+      </div>
+      <br>
+
     </div>
-  <div class="main">
-    <h2>Nos Produits</h2>
-    <div>
-      <a href="#" class="yummy">
-      <div class="cheese">
-        <img src="img/yummy.jpg" alt="yummy" height="400" width="400">
-          <div class="fromage">
-          <h3 class="inLine">YUMMY</h3>
-        </div>
+
+    <div class="main">
+      <h2>Nos Produits</h2>
+      <div>
+        <a href="#" class="yummy">
+          <div class="cheese">
+            <img src="img/yummy.jpg" alt="yummy" height="400" width="400">
+            <div class="fromage">
+              <h3 class="inLine">YUMMY</h3>
+            </div>
+          </div>
+        </a><a href="#" class="perfecto">
+          <div div class="perfecto">
+            <img src="img/perfecto.jpg" alt="perfecto" height="400" width="400">
+            <div>
+              <h3 class="inLine">PERFECTO</h3>
+            </div>
+          </div>
+        </a><a href="#" class="dany">
+          <div div class="dany">
+            <img src="img/dany.jpg" alt="dany" height="400" width="400">
+            <div>
+              <h3 class="inLine">DANYSTAR</h3>
+            </div>
+          </div>
+        </a>
       </div>
-      </a><a href="#" class="perfecto">
-      <div div class="perfecto">
-        <img src="img/perfecto.jpg" alt="perfecto" height="400" width="400">
-        <div>
-          <h3 class="inLine">PERFECTO</h3>
-        </div>
-      </div>
-    </a><a href="#" class="dany">
-      <div div class="dany">
-        <img src="img/dany.jpg" alt="dany" height="400" width="400">
-        <div>
-          <h3 class="inLine">DANYSTAR</h3>
-        </div>
-      </div>
-    </a>
     </div>
-  </div>
 
 
 
 
-  <div class="social">
-    <h2>Nous suivre</h2>
+    <div class="social">
+      <h2>Nous suivre</h2>
 
 
-  </div>
+    </div>
 
 
-<footer class="footer">
- <div class="footer-liens">
-  <div class="footer-contact">
-    <a href="Contact.html">CONTACT</a>
-  </div>
-  <div class="footer-legales">
-    <a href="legales.html">MENTIONS LÉGALES</a>
-  </div>
-  <div class="footer-cookies">
-    <a href="cookies.html">COOKIES</a>
-  </div>
- </div>
- <div>
-   <img src="img/logo.png" width="60" height="50" alt="">
- </div>
- <p> © SPIDOR 2019. Tous droits réservés. </p>
- <address>
-   Zone industrielle Mechta Fatima ,El Hammadia, 34000 Bordj Bou Arreridj
- </address>
-</footer>
+    <footer class="footer">
+      <div class="footer-liens">
+        <div class="footer-contact">
+          <a href="Contact.html">CONTACT</a>
+        </div>
+        <div class="footer-legales">
+          <a href="legales.html">MENTIONS LÉGALES</a>
+        </div>
+        <div class="footer-cookies">
+          <a href="cookies.html">COOKIES</a>
+        </div>
+      </div>
+      <div>
+        <img src="img/logo.png" width="60" height="50" alt="">
+      </div>
+      <p> © SPIDOR 2019. Tous droits réservés. </p>
+      <address>
+        Zone industrielle Mechta Fatima ,El Hammadia, 34000 Bordj Bou Arreridj
+      </address>
+    </footer>
+    <script type="text/javascript">
+    var slideIndex = 0;
+    showSlides();
 
-</body>
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+    </script>
+  </body>
