@@ -62,7 +62,7 @@
 
 
 body{
-  background-color: #FAFAD2;
+  background-color:  white ;
     line-height: 1.6;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -131,7 +131,7 @@ a:hover{
   margin-left: 70px;
   margin-top: 10px;
   padding: 0px 0px;
-  background-color:  #FAEBD7;
+  background-color: #f7931e;
 
 }
 
@@ -159,7 +159,7 @@ a:hover{
 .footer{
   text-align: justify;
 
-  background: #FFD662;
+  background: #FECD90;
   padding: 20px 10px;
   margin-bottom: 10px;
   margin-right: 70px;
@@ -183,7 +183,7 @@ a:hover{
 
 .navigation-bar {
    height: 110px;
-    background-color: #FFD662;;
+    background-color: #f05a28;
     position: fixed;
     left: 79px;
     right: 79px;
@@ -201,7 +201,11 @@ a:hover{
 }
 
 .social{
-  background-color:  #FFE4E1;
+  background-color:
+
+  #F0FFFF
+
+;
   margin-bottom: 10px;
   margin-top: 30px;
   margin-right: 70px;
@@ -215,14 +219,16 @@ a:hover{
 
   margin: 10px;
   color: #black;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
   font-weight: normal;
 
 }
 
 .about{
-   background-color: #FFD700;
+   background-color:
+#fefcdb
+;
    padding: 20px;
    margin-bottom: 10px;
    margin-right: 70px;
@@ -241,33 +247,37 @@ a:hover{
 }
 
 .about h1{
-  color: #FF8C00;
-  font-family: 'Didact Gothic', sans-serif;
+  color:
+#8A7979
+;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
   font-weight: lighter;
   margin-bottom: 0;
   padding-top: 5px;
-  margin-top: 7px
+  margin-top: 7px;
+  margin-left: 400px
 
 }
 .about-article{
   background-color: white;
   width: 600px;
   display:block;
-  margin-left: 0;
+  margin-left: 80px;
   margin-right: 120px;
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 40px 10px;
-  height: 250px;
+  height: 400px;
   float:right;
   top: 0;
 
 }
 .about-article p{
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.75;
   color: #000;
-  font-family: 'MarkOT', sans-serif;
+
+  font-family: 'Helvetica Neue', sans-serif;
   font-weight: normal;
   letter-spacing: 0.8px;
   text-align: center;
@@ -277,11 +287,12 @@ a:hover{
 header h2{
   color: #E08119;
   font-size: 70px;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
+
 }
 
 .find{
-  background-color: white;
+  background-color: #FEF1E1;
   padding: 10px;
   margin-bottom: 10px;
   margin-right: 70px;
@@ -291,8 +302,8 @@ header h2{
 
 .find h2{
 
-  color: #FFE4C4;
-  font-family: 'Didact Gothic', sans-serif;
+  color: black;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 55px;
   font-weight: lighter;
   margin: 20px
@@ -303,7 +314,7 @@ header h2{
   margin-left: 210px;
 }
 .footer-liens a{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 20px;
   color: black;
   font-weight: lighter;
@@ -348,18 +359,18 @@ header h2{
 }
 
 .contact legend{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 28px;
 }
 .contact label{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 28px;
 
 }
 
 .contact h1{
   color: #FFD662;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
   font-weight: lighter;
   margin-left: 500px;
@@ -377,7 +388,7 @@ header h2{
 
 .recrutement h1{
   color: #FFD662;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
   font-weight: lighter;
 
@@ -391,7 +402,7 @@ background-color:  	#FFE4C4;
   transition: 0.5s;
 }
 .yummy h3{
-    font-family: 'MarkOT', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 30px;
     text-align: justify;
     font-weight: medium;
@@ -409,14 +420,14 @@ background-color:  	#FFE4C4;
       padding: 0;
 }
 .perfecto h3{
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 30px;
   text-align: justify;
   margin-left: 120px;
 
 }
 .dany h3{
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 30px;
   text-align: justify;
   margin-left: 100px
@@ -447,7 +458,7 @@ background-color:  	#FFE4C4;
 }
 
 .contact label{
-  font-family: 'Didact Gothic', sans-serif;
+  : 'Didact Gothic', sans-serif;
   font-size: 26px;
   line-height: 1.8;
   text-align: justify;
@@ -483,7 +494,7 @@ margin-top: 10px;
 margin-left: 230px;
 margin-top: 20px;
 font-size: 30px;
-font-family: 'Didact Gothic';
+font-family: 'Helvetica Neue';
 font-weight: lighter;
 }
 
@@ -505,7 +516,7 @@ font-weight: lighter;
 .contact p{
   font-size: 28px;
   margin-left: 80px;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 
@@ -561,15 +572,15 @@ font-weight: lighter;
 }
 
 .wrapper {
-  width: 600px;
+  width: 1000px;
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(6, 300px);
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 300px);
   grid-template-rows: 300px 300px 300px;
   grid-auto-flow: column;
 }
 .dropdown span{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 28px;
   font-weight: bold;
   color: black;
@@ -600,7 +611,7 @@ font-weight: lighter;
   margin-left: 20px;
   margin-right: 40px;
 
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16px;
   font-weight: bold;
 
