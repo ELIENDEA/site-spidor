@@ -79,16 +79,16 @@ body h2{
 
 
 section a {
-  color: black;
+  color: #fff0bc;
   margin: 55px;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: lighter;
 }
 .footer a{
   color: black;
   margin: 55px;
-  font-family: 'MarkOT', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 22px;
   font-weight: bold;
 
@@ -137,10 +137,10 @@ a:hover{
 
 
 .main h2{
-  color: black;
-  font-family: 'Didact Gothic', sans-serif;
+  color: #fefcdb;
+  font-family: 'Helvetica Neue', sans-serif;
     font-size: 60px;
-  font-weight: medium;
+  font-weight: lighter;
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 5px;
@@ -148,7 +148,7 @@ a:hover{
 }
 .main h1{
   color: #8B0000;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 70px;
   font-weight: lighter;
   margin: 10px;
@@ -159,7 +159,7 @@ a:hover{
 .footer{
   text-align: justify;
 
-  background: #FECD90;
+  background: #f05a28;
   padding: 20px 10px;
   margin-bottom: 10px;
   margin-right: 70px;
@@ -203,7 +203,7 @@ a:hover{
 .social{
   background-color:
 
-  #F0FFFF
+  #fff0bc
 
 ;
   margin-bottom: 10px;
@@ -218,10 +218,10 @@ a:hover{
 .social h2{
 
   margin: 10px;
-  color: #black;
+  color: #f7931e;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
-  font-weight: normal;
+  font-weight: lighter;
 
 }
 
@@ -248,7 +248,7 @@ a:hover{
 
 .about h1{
   color:
-#8A7979
+#f05a28
 ;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
@@ -278,16 +278,17 @@ a:hover{
   color: #000;
 
   font-family: 'Helvetica Neue', sans-serif;
-  font-weight: normal;
+  font-weight: lighter;
   letter-spacing: 0.8px;
   text-align: center;
   hyphens: auto;
 }
 
-header h2{
+header h1{
+  font-weight: lighter;
   color: #E08119;
   font-size: 70px;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue';
 
 }
 
@@ -302,7 +303,7 @@ header h2{
 
 .find h2{
 
-  color: black;
+  color: #f7931e;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 55px;
   font-weight: lighter;
@@ -316,7 +317,7 @@ header h2{
 .footer-liens a{
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 20px;
-  color: black;
+  color: #fff0bc;
   font-weight: lighter;
 
 
@@ -344,7 +345,7 @@ header h2{
     display: inline-block;
 }
 .contact{
-  background-color: white;
+  background-color: #fefcdb;
   padding: 20px;
   margin-bottom: 10px;
   margin-right: 70px;
@@ -369,7 +370,7 @@ header h2{
 }
 
 .contact h1{
-  color: #FFD662;
+  color: #f7931e;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
   font-weight: lighter;
@@ -387,7 +388,7 @@ header h2{
 }
 
 .recrutement h1{
-  color: #FFD662;
+  color: #fff0bc;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 60px;
   font-weight: lighter;
@@ -402,11 +403,12 @@ background-color:  	#FFE4C4;
   transition: 0.5s;
 }
 .yummy h3{
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'MarkOT', sans-serif;
     font-size: 30px;
     text-align: justify;
-    font-weight: medium;
+    font-weight: lighter;
     margin-left: 140px;
+    color:#f05a28;
 
 
 
@@ -420,17 +422,22 @@ background-color:  	#FFE4C4;
       padding: 0;
 }
 .perfecto h3{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'MarkOT', sans-serif;
   font-size: 30px;
   text-align: justify;
   margin-left: 120px;
+  color: #fefcdb;
+  font-weight: lighter;
+
 
 }
 .dany h3{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'MarkOT', sans-serif;
   font-size: 30px;
   text-align: justify;
-  margin-left: 100px
+  margin-left: 100px;
+  color: #fefcdb;
+  font-weight: lighter;
 
 
 }
@@ -448,6 +455,10 @@ background-color:  	#FFE4C4;
   font-size: 30px;
   text-align: justify;
   margin-left: 120px;
+  color: #f05a28;
+  font-weight: lighter;
+
+
 
 }
 .ringolis{
@@ -458,7 +469,7 @@ background-color:  	#FFE4C4;
 }
 
 .contact label{
-  : 'Didact Gothic', sans-serif;
+font-family : 'Helvetica Neue', sans-serif;
   font-size: 26px;
   line-height: 1.8;
   text-align: justify;
@@ -582,11 +593,11 @@ font-weight: lighter;
 .dropdown span{
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 28px;
-  font-weight: bold;
-  color: black;
+  font-weight: lighter;
+  color: #fff0bc;
 }
 .dropbtn {
-  background-color: #FFD662;
+  background-color: #f05a28;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -612,20 +623,15 @@ font-weight: lighter;
   margin-right: 40px;
 
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  margin: 2px
+  font-size: 20px;
+  font-weight: medium;
+  color: #f05a28;
   text-decoration: none;
+
   display: block;
 
-
 }
+
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
